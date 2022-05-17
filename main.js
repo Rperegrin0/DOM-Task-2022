@@ -4,9 +4,21 @@ function roundUp(x) {
 }
 
 function CalculateMagic(a, b) {
-    // add your code here
-    
-    
-    // remember to call roundUp() with your result before returning
-    // return roundUp(g);
+    let number = a+ b + c;
+
+    number = number +90;
+    number = number / 10;
+
+    if(number % 5 === 0){
+        number = number -8;
+
+    }
+    else {
+        number = number +9;
+    }
+    number = number * number;
+    let G= number / 3;
+
+    return roundUp(G);
+
 }
