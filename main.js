@@ -4,7 +4,7 @@ function roundUp(x) {
 }
 
 function CalculateMagic(a, b) {
-    let number = a+ b + c;
+    let number = a+ b + b;
 
     number = number +90;
     number = number / 10;
